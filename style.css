@@ -1,12 +1,55 @@
-.logo{
-    width: 180px;
-    height: 80px;
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
 }
-.login .btn{
+
+.Logo_Logo__svg__NDcxY {
+    vertical-align: top;
+    fill: #0062e3;
+    width: 170px;
+    height: 30px;
+}
+.btn-dil{
     font-size: 12px;
+    font-weight: 400;
+    color: #545860;
+    background-color: #e0e3e5;
+    padding: 6px 16px !important;
+}
+.btn-dil img{
+    width: 18px;
+    height: 14px;
+}
+.btn-dil-2{
+    display: none;
+    background-color: white;
+    color: #0062e3;
+}
+.btn-oturum{
+    color: #161616;
+    background-color: #e0e3e5;
+    font-size: 14px;
+    padding: 6px 16px;
+}
+.oturum-2{
+    display: none;
+    color: #0062e3;
+    border: none;
+    font-size: 20px;
 }
 
-
+.like{
+    font-size: 20px ; 
+    color: #0062e3 ; 
+    
+}
+.yardim{
+    color: #0062e3; 
+    font-size:14px;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
 .mini-kartlar div a{
     font-size: 1rem;
     font-weight: bold;
@@ -19,3 +62,34 @@
     
 }
 /* HOVER EFEKTLERİ BİTİŞ*/
+
+
+
+/* Navbar Responsive */
+@media screen and (max-width: 1050px) {
+    .yardim{
+        display: none;
+    }
+  }
+@media screen and (max-width: 700px) {
+    .btn-dil{
+        display: none;
+    }
+    .btn-dil-2{
+        display: block;
+    }
+    .btn-oturum{
+        display: none;
+    }
+    .oturum-2{
+        display: block;
+    }
+    .btn-dil{
+        padding: 0 !important;
+    }
+  }
+  @media screen and (max-width: 600px) {
+
+
+    
+ }
