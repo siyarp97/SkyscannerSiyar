@@ -50,6 +50,10 @@
     line-height: 1.25rem;
     font-weight: 400;
 }
+.otel-kart{
+    background-color: #0062e3;
+}
+
 .mini-kartlar div a{
     font-size: 1rem;
     font-weight: bold;
@@ -91,5 +95,5 @@
   @media screen and (max-width: 600px) {
 
 
-    
+
  }
