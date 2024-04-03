@@ -1,3 +1,6 @@
+body{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .kutu{
     height:20rem;
 }
@@ -5,4 +8,18 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.baslik-box{
+    margin-inline-end: 1rem;
+}
+.baslik-box > h1 {
+    font-size: 3rem;
+    letter-spacing: -1px;
+    line-height: 3.5rem;
+    font-weight: 700;
+    color: rgb(22, 22, 22);
+}
+.sag-parca > div {
+    padding: .5rem;
 }
