@@ -4,10 +4,31 @@ body{
 .kutu{
     height:20rem;
 }
+
+.row{
+    flex-wrap: wrap;
+}
 .row  img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.flexle{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0%;
+    
+}
+
+.flexle:nth-child(1){
+    height: 40%;
+}
+.h-40{
+    height: 40%;
+}
+.h-60{
+    height: 60%;
 }
 
 .baslik-box{
