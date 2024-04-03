@@ -122,7 +122,36 @@
     margin-right: 15px;
 
 }
+.fa-star{
+    color: #f55d42;
+    font-size: 14px;
+}
+.fa-regular{
+    color: #0003;
+}
 
+
+
+
+.card {
+    margin: 0;
+    border: 0 0 1px 1px;
+    border-radius: 0;
+}
+
+.card-header {
+   
+    margin: 0;
+    padding: 0;
+}
+
+.card-header img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 
@@ -161,3 +190,35 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
