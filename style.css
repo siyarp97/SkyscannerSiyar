@@ -131,7 +131,6 @@
 }
 
 
-
 /* Navbar Responsive */
 @media screen and (max-width: 1050px) {
     .yardim{
@@ -171,15 +170,6 @@
   }
 
 
-
-
-
-
-
-
-
-
-
 button.accordion-button.bg-transparent.text-white.collapsed::after {
     
         content: '\f054';
@@ -199,20 +189,6 @@ button.accordion-button.bg-transparent.text-white.collapsed::after {
         box-shadow: none;
     }
     
-    
-    
-
-    
-
-
-
-
-
-
-
-
-
-
 
   .swiper {
     width: 100%;
