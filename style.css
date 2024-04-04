@@ -131,31 +131,6 @@
 }
 
 
-
-
-.card {
-    margin: 0;
-    border: 0 0 1px 1px;
-    border-radius: 0;
-}
-
-.card-header {
-   
-    margin: 0;
-    padding: 0;
-}
-
-.card-header img {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-
-
-
 /* Navbar Responsive */
 @media screen and (max-width: 1050px) {
     .yardim{
@@ -184,23 +159,36 @@
         align-items: center;
         justify-content: space-between;
     }
+    .fırsat{
+        display: block !important;
+    }
+
+    .fırsat-2{
+        width: 100% !important;
+        margin-bottom: 100px;
+    }
   }
 
 
+button.accordion-button.bg-transparent.text-white.collapsed::after {
+    
+        content: '\f054';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 14px;
+        color: white;
+        transform: rotate(90deg); 
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .accordion-item {
+        border-bottom: none;
+    }
+    .accordion-button:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    
 
   .swiper {
     width: 100%;
@@ -208,12 +196,8 @@
   }
 
   .swiper-slide {
-    text-align: center;
     font-size: 18px;
     background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .swiper-slide img {
